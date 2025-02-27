@@ -143,6 +143,22 @@
 
 ### 4. Отправка на GitHub
 
-- для отправки подготовленного коммита нужно использовать команду git push
+- перед отправкой нужно связать локальный репозиторий с удаленным, это делаеся с помощью команды git remote add origin git@github.com:%ИМЯ_АККАУНТА%/Guide-for-GitHub.git  
+
+`$ git remote add origin git@github.com:%ИМЯ_АККАУНТА%/Guide-for-GitHub.git `
+
+- чтобы убедиться что репозитории связаны нужно использовать комманду git remote -v
+
+`$ git remote -v`
+
+- для отправки подготовленного коммита нужно использовать команду $ git push -u origin main или $ git push -u origin master в зависимости от того, что пишет в конце пути на репозиторий GitBash.
+
+`$ git push -u origin main`
+
+или
+
+`$ git push -u origin master`
+
+после первой отправки можно использовать команду git push
 
 `$ git push`
