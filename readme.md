@@ -145,7 +145,7 @@
 
 - перед отправкой нужно связать локальный репозиторий с удаленным, это делаеся с помощью команды git remote add origin git@github.com:%ИМЯ_АККАУНТА%/Guide-for-GitHub.git  
 
-`$ git remote add origin git@github.com:%ИМЯ_АККАУНТА%/Guide-for-GitHub.git `
+`$ git remote add origin git@github.com:%ИМЯ_АККАУНТА%/Guide-for-GitHub.git`
 
 - чтобы убедиться что репозитории связаны нужно использовать комманду git remote -v
 
@@ -162,3 +162,13 @@
 после первой отправки можно использовать команду git push
 
 `$ git push`
+
+### 5. Fork или клонирование
+
+- для того чтобы склонировать репозиторий нужно использовать команду git clone
+
+`$ git clone git@github.com:JediLo/m1-t6-jdk.git`
+
+- проверить связа ли репозиторий можно командой git remote -v
+
+`$ git remote -v`
